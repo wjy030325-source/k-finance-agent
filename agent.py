@@ -9,8 +9,9 @@ from tools import get_account_balances, calculate_exchange
 load_dotenv()
 
 # 2. 初始化大模型 (使用硅基流动的 DeepSeek-V3)
+# 把原来的 DeepSeek-V3 改成下面这个永久免费的 Qwen 模型
 llm = ChatOpenAI(
-    model="deepseek-ai/DeepSeek-V3", 
+    model="Qwen/Qwen2.5-7B-Instruct", 
     temperature=0.1
 )
 
