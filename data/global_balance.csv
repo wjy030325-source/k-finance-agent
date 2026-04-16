@@ -1,0 +1,5 @@
+Account_Entity,Currency,Current_Balance,Alert_Threshold
+HK_Branch,HKD,5000000,1000000
+SG_Branch,SGD,3000000,500000
+NY_Branch,USD,200000,1000000
+LDN_Branch,GBP,4000000,800000
